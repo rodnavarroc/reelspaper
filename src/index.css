@@ -14,7 +14,7 @@
   scroll-snap-type: y mandatory;
 }
 
-.item {
+.item, .loadingTitle {
   display: flex;
   height: 100vh;
   background-color: gold;
@@ -70,4 +70,8 @@ footer {
     font-weight: 400;
     font-style: italic;
     text-align: right;
+}
+
+.readFull {
+  color: inherit;
 }
