@@ -6,7 +6,7 @@ function Item() {
   const [articles, setArticles] = useState();
 
   useEffect(() => {
-    axios.get("http://192.168.15.44:5000/theverge/tech").then(response => {
+    axios.get("https://reelspaper-api.vercel.app/theverge/tech").then(response => {
       setArticles(response.data);
       setLoading(false);
     });
